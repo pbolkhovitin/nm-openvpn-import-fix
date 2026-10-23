@@ -1,0 +1,18 @@
+# Профили и ключевой материал — никогда не коммитить
+*.ovpn
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.nmconnection
+credentials*
+creds*
+.env
+
+# Единственное исключение: шаблон без секретов
+!examples/profile.template.ovpn
+
+# Прочее
+*.log
+*.tmp
